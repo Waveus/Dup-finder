@@ -48,7 +48,8 @@ class ArgsResolver:
     
 args : list[Arg] = [
     Arg("recursive", "-r", Quantity.NONE, "Flag that specifies whether the program should include subfolders when searching for duplicates."),
-    Arg("paths", "-f", Quantity.SOME, "Path of folders and files that should be scanned.")
+    Arg("paths", "-f", Quantity.SOME, "Path of folders and files that should be scanned."),
+    Arg("hash", "-h", Quantity.SOME, "Specify which hash should be used to determine whether the file dyplicate exists.")
 ]
 
 def main():
@@ -57,9 +58,9 @@ def main():
     print(resolver.argList[1].value)
     
 
-def make_paths() -> Optional[list[str]]:
+def make_paths(possiblepaths: list[str]) -> Optional[list[str]]:
     
-    sys_args: list[str] = sys.argv
+    sys_args: list[str] = possiblepaths
     user_path: list[str] = []
 
     for arg in sys_args[1:]:
