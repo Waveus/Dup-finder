@@ -1,6 +1,6 @@
 # Dup-finder
 
-A Python script for detecting and handling duplicate files.
+A Python script for detecting and handling duplicate files using blake2 hash function.
 <br>
 
 <strong>Usage</strong><br>
