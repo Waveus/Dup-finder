@@ -3,11 +3,32 @@
 A Python script for detecting and handling duplicate files.
 <br>
 
-<strong>Usage</strong><br>
-python3 Dup-finder.py [file]..[file] [folder]..[folder] -r | Find all duplicates in <file>'s and <folder>'s.<br>
-python3 Dup-finder.py [file]..[file]                       | Check if all the specified files are identical.<br>
-python3 Dup-finder.py [folder]..[folder] -r                | Check for duplicate files within the specified folder.<br>
-
-<strong>Flags</strong><br>
-Use -h to display help<br>
-Use -r to include subfolders in the scan
+<table>
+  <tr><td colspan="2">Usage</td></tr>
+  <tr>
+    <td>python3 Dup-finder.py [file]..[file] [folder]..[folder]</td>
+    <td>Find all duplicates in [file]'s and [folder]'s.</td>
+  </tr>
+  <tr>
+    <td>python3 Dup-finder.py [file]..[file]</td>
+    <td>Check if all the specified files are identical.</td>
+  </tr>
+  <tr>
+    <td>python3 Dup-finder.py [folder]..[folder]</td>
+    <td>Check for duplicate files within the specified folder.</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>  
+    <td colpan="2">Flags</td>
+  </tr>
+  <tr>
+  <td style="width: 150px;">-h</td>
+  <td>Use <strong>-h</strong> to display help. If no arguments are passed via the command line, help is also displayed automatically.</td>
+</tr>
+<tr>
+  <td style="width: 150px;">-r</td>
+  <td>Use <strong>-r</strong> to recursively scan files in the specified folders.</td>
+</tr>
+</table>
