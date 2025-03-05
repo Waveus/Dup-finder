@@ -3,8 +3,9 @@
 A Python script for detecting and handling duplicate files.
 <br>
 
+<strong>Usage</strong><br>
 <table>
-  <tr><td colspan="2">Usage</td></tr>
+  <tr><td>Command</td><td>Description</td></tr>
   <tr>
     <td>python3 Dup-finder.py [file]..[file] [folder]..[folder]</td>
     <td>Find all duplicates in [file]'s and [folder]'s.</td>
@@ -21,7 +22,7 @@ A Python script for detecting and handling duplicate files.
 <br>
 <table>
   <tr>  
-    <td colpan="2">Flags</td>
+    <tr><td>Flag</td><td>description</td></tr>
   </tr>
   <tr>
   <td style="width: 150px;">-h</td>
