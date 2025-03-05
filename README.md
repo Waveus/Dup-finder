@@ -22,7 +22,7 @@ A Python script for detecting and handling duplicate files.
 <br>
 <table>
   <tr>  
-    <tr><td>Flag</td><td>description</td></tr>
+    <tr><td>Flag</td><td>Description</td></tr>
   </tr>
   <tr>
   <td style="width: 150px;">-h</td>
